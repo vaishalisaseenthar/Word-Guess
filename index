@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href=https://bootswatch.com/4/sketchy/bootstrap.min.css>
+       
+        <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+
+        <title>Word Guess Game</title>
+    </head>
+
+    <body>
+        <header id="main-header">
+            <h1>Who's that Pokemon</h1>
+            <span>Word-Guessing-Game</span>
+            
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2"></div> 
+                <section class="col-12 col-lg-8" id="section-block">
+                    <header>
+                        <h2>Guess the name of the pokemon</h2>
+                    </header>
+                    <p id="instructions">Enter any key to start !</p>
+                    <div class="mobileInput">
+                        <input type="text" id="textInput" value="">
+                    </div>
+                    <p id="message">Hello Trainer</p>
+                    <p id="userAnswer">START</p>
+                    <p id="userGuess">You Guessed: </p>
+                </section>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <aside class="col-6 col-lg-4" id="aside-block">
+                    <header>
+                        <h3>Score Board</h3>
+                    </header>
+                    <p>Win: <span id="win">0</span></p>
+                    <p>Lose: <span id="lose">0</span></p>
+                    <p>Tries Left: <span id="tries">10</span></p>
+                </aside>
+                <div class="col-6 col-lg-4" id="img-container">
+                    <img src="logo.jpg" alt="img" class="img-fluid" id="picture">
+                </div>
+            </div>
+        </div>
+
+        
+        <script type="text/javascript" src="images/pokescript.js"></script>
+
+    </body>
+</html>
