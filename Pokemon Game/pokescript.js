@@ -14,7 +14,7 @@ var gameCore = {
     loseCount: 0,
     triesLeft: 10,
     wordList: ['PIKACHU', 'BULBASAUR', 'CHARMANDER', 'SQUIRTLE', 'PSYDUCK', 'CUBONE', 'CLEFAIRY', 'EEVEE' , 'DRAGONAIR', 'ONIX'], //List of words for game
-    imgList: ['pikachu.jpg', 'bulbasaur.jpg', 'charmander.jpg', 'squirtle.jpg', 'psyduck.jpg', 'cubone.jpg', 'clefairy.jpg', 'eevee.jpg', 'dragonair.jpg', 'onix.jpg'], //List image reference
+    imgList: ['images/pikachu.jpg', 'images/bulbasaur.jpg', 'images/charmander.jpg', 'images/squirtle.jpg', 'images/psyduck.jpg', 'images/cubone.jpg', 'images/clefairy.jpg', 'images/eevee.jpg', 'images/dragonair.jpg', 'images/onix.jpg'], //List image reference
     answers: "",
     imageSrc: "",
     displayWord: [], 
